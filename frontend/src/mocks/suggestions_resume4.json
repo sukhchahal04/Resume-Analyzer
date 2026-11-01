@@ -1,0 +1,41 @@
+{
+  "resume_id": 4,
+  "overall_score": 75.96,
+  "summary": "The resume demonstrates strong experience in backend development, Python, SQL, AWS, Docker, and REST APIs, but lacks concrete evidence of MongoDB, debugging, and communication skills required by the job.",
+  "suggestions": [
+    {
+      "title": "Gain and showcase MongoDB experience",
+      "detail": "Learn MongoDB fundamentals (collections, queries, aggregation, indexes) and build a small project such as a recipe API with ingredient search; add the project and specific MongoDB tasks to the resume."
+    },
+    {
+      "title": "Document debugging expertise",
+      "detail": "Create a README that details two real bugs you fixed, including symptoms, root cause, debugging steps (stack traces, logs, breakpoints), and the fix, then reference this documentation in your resume to turn the weak match into a strong one."
+    },
+    {
+      "title": "Demonstrate communication skills",
+      "detail": "Write concise design notes or READMEs for recent projects and record a two-minute demo explaining a project's architecture; cite these artifacts on the resume to provide concrete proof of effective technical communication."
+    },
+    {
+      "title": "Highlight React contributions",
+      "detail": "Add specific examples of responsive UI work with React (e.g., feature built, performance metrics, user impact) to turn the partial match into a stronger demonstration of front-end expertise."
+    }
+  ],
+  "source": "llm",
+  "references": [
+    {
+      "skill": "mongodb",
+      "learn": "Learn collections, queries, aggregation and indexes.",
+      "project": "Build a recipe API with search by ingredient."
+    },
+    {
+      "skill": "debugging",
+      "learn": "Practise reading stack traces, using a debugger and logging, and reproducing bugs with a minimal example.",
+      "project": "Write up two real bugs you fixed, with symptom, cause and fix, in your README."
+    },
+    {
+      "skill": "communication",
+      "learn": "Write short design notes and READMEs, and practise explaining your project in two minutes.",
+      "project": "Record a two-minute demo of one project and refine it until it is clear."
+    }
+  ]
+}

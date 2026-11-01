@@ -1,0 +1,46 @@
+{
+  "resume_id": 5,
+  "overall_score": 35.9,
+  "summary": "The resume lists many relevant technologies but provides little concrete evidence of hands-on experience with core backend requirements such as REST API development, NoSQL databases, code reviews, debugging, and communication. Closing these gaps with focused projects and collaborative practice will raise the match score.",
+  "suggestions": [
+    {
+      "title": "Build a production-grade REST API",
+      "detail": "Learn HTTP methods, status codes and resource naming, then create a book-catalogue API in Python (e.g., FastAPI), containerise it with Docker and deploy to AWS; host the code on GitHub and write unit/integration tests to showcase end-to-end backend skills."
+    },
+    {
+      "title": "Gain practical NoSQL experience",
+      "detail": "Study MongoDB fundamentals (documents, collections, queries, indexes) and build a notes-taking API that stores and searches documents by tag; push the repo to GitHub and include sample queries to demonstrate competence with NoSQL."
+    },
+    {
+      "title": "Practice code reviews and Git workflows",
+      "detail": "Contribute to an open-source project or a peer's repository, regularly review pull requests using a checklist (clarity, tests, style), and document feedback; this will provide concrete evidence of code-review participation and Git proficiency."
+    },
+    {
+      "title": "Develop debugging and communication chops",
+      "detail": "Simulate production issues in your API projects (e.g., introduce latency or errors), use logging and debugging tools to resolve them, and write clear post-mortem reports that explain the problem, steps taken, and lessons learned."
+    }
+  ],
+  "source": "llm",
+  "references": [
+    {
+      "skill": "rest api",
+      "learn": "Learn HTTP methods, status codes and resource naming, then build one in a framework.",
+      "project": "Build an API for a book catalogue with proper status codes, validation and pagination."
+    },
+    {
+      "skill": "nosql",
+      "learn": "Start with MongoDB basics: documents, collections, queries and indexes.",
+      "project": "Build a notes API that stores documents in MongoDB and supports search by tag."
+    },
+    {
+      "skill": "mongodb",
+      "learn": "Learn collections, queries, aggregation and indexes.",
+      "project": "Build a recipe API with search by ingredient."
+    },
+    {
+      "skill": "code review",
+      "learn": "Read pull requests on open-source repositories and practise giving specific, kind feedback.",
+      "project": "Review a friend's pull request and keep a short checklist of what you look for."
+    }
+  ]
+}

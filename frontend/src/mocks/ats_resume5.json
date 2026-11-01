@@ -1,0 +1,55 @@
+{
+  "ats_score": 80,
+  "checks": [
+    {
+      "label": "Email address",
+      "passed": false,
+      "message": "No email address found. Add one near the top."
+    },
+    {
+      "label": "Phone number",
+      "passed": true,
+      "message": "Phone number found."
+    },
+    {
+      "label": "Profile link",
+      "passed": true,
+      "message": "LinkedIn or GitHub link found."
+    },
+    {
+      "label": "Experience section",
+      "passed": true,
+      "message": "Experience section detected."
+    },
+    {
+      "label": "Education section",
+      "passed": true,
+      "message": "Education section detected."
+    },
+    {
+      "label": "Skills section",
+      "passed": false,
+      "message": "No standard skills heading detected. Add a plain 'Skills' section listing your tools and technologies."
+    },
+    {
+      "label": "Length",
+      "passed": true,
+      "message": "About 297 words, a good length."
+    },
+    {
+      "label": "Dates",
+      "passed": true,
+      "message": "Dates found for your experience or education."
+    },
+    {
+      "label": "Measurable results",
+      "passed": true,
+      "message": "Several measurable results found."
+    },
+    {
+      "label": "Recognised skills",
+      "passed": true,
+      "message": "7 skills recognised."
+    }
+  ]
+}

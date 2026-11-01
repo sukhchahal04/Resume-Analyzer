@@ -1,0 +1,23 @@
+# Python / FastAPI backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.env
+
+# Node / React frontend
+node_modules/
+dist/
+build/
+.env.local
+.env.*.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# User uploads / local storage
+backend/uploads/*
+!backend/uploads/.gitkeep

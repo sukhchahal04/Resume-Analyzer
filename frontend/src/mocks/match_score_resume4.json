@@ -1,0 +1,101 @@
+{
+  "resume_id": 4,
+  "filename": "Leila-Haddad-Software-Engineer-Resume (TechieCV.com).docx",
+  "overall_score": 75.96,
+  "text_similarity_score": 19.33,
+  "semantic_score": 0.53,
+  "coverage_percent": 91.67,
+  "strong_percent": 58.33,
+  "evidence": [
+    {
+      "requirement": "We are looking for a Software Engineer to build scalable web applications and backend services.",
+      "best_resume_line": "Software Engineer with 6 years of experience building consumer web and mobile products for local search and food delivery apps used by millions of people, focused on backend services, API design, and product feature delivery.",
+      "similarity": 0.69,
+      "level": "strong"
+    },
+    {
+      "requirement": "Design, build and maintain backend services and REST APIs using Python",
+      "best_resume_line": "APIs & Messaging: REST, gRPC, GraphQL, Apache Kafka, Amazon SQS, OpenAPI",
+      "similarity": 0.51,
+      "level": "strong"
+    },
+    {
+      "requirement": "Write efficient SQL queries and work with NoSQL databases such as MongoDB or DynamoDB",
+      "best_resume_line": "Databases & Caching: MySQL, PostgreSQL, Redis, Amazon DynamoDB, Elasticsearch",
+      "similarity": 0.65,
+      "level": "strong"
+    },
+    {
+      "requirement": "Develop responsive user interfaces using React",
+      "best_resume_line": "Frameworks: FastAPI, Spring Boot, React, Django, Node.js, Next.js",
+      "similarity": 0.47,
+      "level": "partial"
+    },
+    {
+      "requirement": "Containerise applications with Docker and deploy them on AWS",
+      "best_resume_line": "Cloud & DevOps: AWS, Docker, Kubernetes, Terraform, GitHub Actions, Helm",
+      "similarity": 0.61,
+      "level": "strong"
+    },
+    {
+      "requirement": "Participate in code reviews and collaborate with designers and product managers",
+      "best_resume_line": "Coaches newer engineers on API design and writing testable code in code review and pairing sessions, leads the team’s biweekly architecture review, and keeps the team’s service ownership guide current.",
+      "similarity": 0.46,
+      "level": "partial"
+    },
+    {
+      "requirement": "Debug production issues and optimise application performance",
+      "best_resume_line": "Skilled in service decomposition, event-driven architecture, feature flags and A/B testing, and SQL query tuning, working from a design doc reviewed before every major build and a test pyramid that runs on every pull request to deliver features that launch on schedule and stay up after launch.",
+      "similarity": 0.39,
+      "level": "partial"
+    },
+    {
+      "requirement": "Write unit and integration tests to keep code quality high",
+      "best_resume_line": "Wrote 140 integration tests for the checkout service with JUnit, Mockito and Testcontainers, covering promo codes, tips and split payments, and caught 31 bugs before release in the first 6 months.",
+      "similarity": 0.47,
+      "level": "partial"
+    },
+    {
+      "requirement": "Strong knowledge of Python and SQL",
+      "best_resume_line": "Programming Languages: Python, Java, TypeScript, Go, SQL, Bash",
+      "similarity": 0.52,
+      "level": "strong"
+    },
+    {
+      "requirement": "Experience building and consuming REST APIs",
+      "best_resume_line": "APIs & Messaging: REST, gRPC, GraphQL, Apache Kafka, Amazon SQS, OpenAPI",
+      "similarity": 0.54,
+      "level": "strong"
+    },
+    {
+      "requirement": "Familiarity with Git, Docker and cloud platforms such as AWS",
+      "best_resume_line": "Cloud & DevOps: AWS, Docker, Kubernetes, Terraform, GitHub Actions, Helm",
+      "similarity": 0.72,
+      "level": "strong"
+    },
+    {
+      "requirement": "Good problem-solving, debugging and communication skills",
+      "best_resume_line": "Software Engineer with 6 years of experience building consumer web and mobile products for local search and food delivery apps used by millions of people, focused on backend services, API design, and product feature delivery.",
+      "similarity": 0.32,
+      "level": "weak"
+    }
+  ],
+  "matching_skills": [
+    "rest api",
+    "python",
+    "sql",
+    "nosql",
+    "dynamodb",
+    "react",
+    "docker",
+    "aws",
+    "code review",
+    "git"
+  ],
+  "missing_skills": [
+    "mongodb",
+    "debugging",
+    "communication"
+  ],
+  "skill_match_percent": 76.92
+}

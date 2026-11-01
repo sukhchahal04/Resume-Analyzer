@@ -1,0 +1,101 @@
+{
+  "resume_id": 5,
+  "filename": "Word-template-6 - Copy.docx",
+  "overall_score": 35.9,
+  "text_similarity_score": 3.3,
+  "semantic_score": 0.34,
+  "coverage_percent": 50,
+  "strong_percent": 16.67,
+  "evidence": [
+    {
+      "requirement": "We are looking for a Software Engineer to build scalable web applications and backend services.",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.41,
+      "level": "partial"
+    },
+    {
+      "requirement": "Design, build and maintain backend services and REST APIs using Python",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.35,
+      "level": "partial"
+    },
+    {
+      "requirement": "Write efficient SQL queries and work with NoSQL databases such as MongoDB or DynamoDB",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.33,
+      "level": "weak"
+    },
+    {
+      "requirement": "Develop responsive user interfaces using React",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.3,
+      "level": "weak"
+    },
+    {
+      "requirement": "Containerise applications with Docker and deploy them on AWS",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.35,
+      "level": "partial"
+    },
+    {
+      "requirement": "Participate in code reviews and collaborate with designers and product managers",
+      "best_resume_line": "Choose from 12 designs",
+      "similarity": 0.26,
+      "level": "weak"
+    },
+    {
+      "requirement": "Debug production issues and optimise application performance",
+      "best_resume_line": "Implemented a off-the-shelve CRM system, saving the company $45,000 in the first year of use.",
+      "similarity": 0.18,
+      "level": "weak"
+    },
+    {
+      "requirement": "Write unit and integration tests to keep code quality high",
+      "best_resume_line": "https://github.com/HKUDS/DeepTutor",
+      "similarity": 0.17,
+      "level": "weak"
+    },
+    {
+      "requirement": "Strong knowledge of Python and SQL",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.55,
+      "level": "strong"
+    },
+    {
+      "requirement": "Experience building and consuming REST APIs",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.27,
+      "level": "weak"
+    },
+    {
+      "requirement": "Familiarity with Git, Docker and cloud platforms such as AWS",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.53,
+      "level": "strong"
+    },
+    {
+      "requirement": "Good problem-solving, debugging and communication skills",
+      "best_resume_line": "Skills: Python, SQL, React, Docker, Machine Learning, AWS",
+      "similarity": 0.4,
+      "level": "partial"
+    }
+  ],
+  "matching_skills": [
+    "python",
+    "sql",
+    "react",
+    "docker",
+    "aws"
+  ],
+  "missing_skills": [
+    "rest api",
+    "nosql",
+    "mongodb",
+    "dynamodb",
+    "code review",
+    "debugging",
+    "git",
+    "communication"
+  ],
+  "skill_match_percent": 38.46
+}

@@ -1,0 +1,55 @@
+{
+  "ats_score": 80,
+  "checks": [
+    {
+      "label": "Email address",
+      "passed": true,
+      "message": "Email address found."
+    },
+    {
+      "label": "Phone number",
+      "passed": true,
+      "message": "Phone number found."
+    },
+    {
+      "label": "Profile link",
+      "passed": false,
+      "message": "No LinkedIn or GitHub link found. Recruiters often look for one."
+    },
+    {
+      "label": "Experience section",
+      "passed": true,
+      "message": "Experience section detected."
+    },
+    {
+      "label": "Education section",
+      "passed": true,
+      "message": "Education section detected."
+    },
+    {
+      "label": "Skills section",
+      "passed": true,
+      "message": "Skills section detected."
+    },
+    {
+      "label": "Length",
+      "passed": true,
+      "message": "About 753 words, a good length."
+    },
+    {
+      "label": "Dates",
+      "passed": true,
+      "message": "Dates found for your experience or education."
+    },
+    {
+      "label": "Measurable results",
+      "passed": false,
+      "message": "Few numbers found. Add measurable results such as percentages, amounts or team sizes."
+    },
+    {
+      "label": "Recognised skills",
+      "passed": true,
+      "message": "34 skills recognised."
+    }
+  ]
+}

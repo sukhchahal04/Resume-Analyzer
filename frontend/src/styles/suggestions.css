@@ -1,0 +1,30 @@
+/* Suggestions section. Flat rows, 1px dividers, tokens only (see DESIGN.md). */
+.sg-intro { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 0 0; }
+.sg-skel-summary { height: 40px; margin: 16px 0 12px; }
+.sg-skel-row { height: 20px; margin: 22px 0; }
+
+.sg-body { padding-top: 12px; }
+.sg-summary { color: var(--muted); font-size: 15px; line-height: 22px; max-width: 70ch; }
+.sg-source { margin-top: 8px; color: var(--faint); font-size: var(--fs-small); display: flex; align-items: baseline; gap: 12px; }
+.sg-again { font-size: var(--fs-small); font-weight: 400; color: var(--muted); }
+
+.sg-list { margin-top: 16px; border-top: 1px solid var(--border); }
+.sg-item { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.sg-num { color: var(--faint); }
+.sg-title { font-weight: 500; }
+.sg-detail { margin-top: 2px; color: var(--muted); font-size: 13px; line-height: 19px; max-width: 70ch; }
+
+.sg-sub { margin: 28px 0 4px; font-size: var(--fs-section); font-weight: 600; line-height: 24px; }
+.sg-refs { border-top: 1px solid var(--border); }
+.sg-ref { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); align-items: start; }
+.sg-ref .chip { justify-self: start; }
+.sg-ref p { font-size: 13px; line-height: 19px; color: var(--muted); }
+.sg-ref p + p { margin-top: 4px; }
+.sg-label { display: inline-block; min-width: 40px; color: var(--text); font-weight: 500; }
+
+@media (max-width: 800px) {
+  .sg-intro { flex-direction: column; align-items: stretch; }
+  .sg-intro .btn-secondary, .sg-body + .btn-secondary { width: 100%; }
+  .sg-ref { grid-template-columns: 1fr; gap: 8px; }
+  .sg-again { min-height: 44px; }
+}
